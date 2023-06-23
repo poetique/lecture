@@ -1,4 +1,4 @@
-#baseURL = "https://poetique.github.io/lecture"
+baseURL = "https://poetique.github.io/lecture"
 languageCode = "en-us"
 title = "フランス現代詩読書会"
 theme = "hugo-digital-garden-theme"
