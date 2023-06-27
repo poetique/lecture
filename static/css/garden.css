@@ -1,0 +1,12 @@
+/* Custom styles go here */
+.container, .container-md, .container-sm {
+  max-width: 80%!important;
+  width: 100%!important;
+  padding-left: 0!important;
+  padding-right: 0!important;
+  margin: 10px auto!important;
+}
+
+.display-2 {
+font-size: 3rem!important;
+}

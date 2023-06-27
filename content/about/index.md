@@ -1,5 +1,5 @@
 ---
-title: "Nigalya Ponya"
+title: "フランス現代詩読書会について"
 date: 2015-01-01
 summary: "Himalayan red panda"
 layout: about

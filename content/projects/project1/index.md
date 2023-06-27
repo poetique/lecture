@@ -1,131 +1,24 @@
 ---
-title: "Markdown Syntax"
-date: 2021-08-01
+title: "レーモン・ラディゲの詩をめぐって"
+date: 2023-06-25
 draft: false
-project_tags: ["markdown"]
-status: "evergreen"
-weight: 2
-summary: "Example of markdown syntax you can use to edit your content"
-links:
-    external_link:
-        text: "Some external link"
-        icon: "fas fa-external-link-alt"
-        href: "#"
-        weight: 1
-    another_link:
-        text: "Another github link"
-        icon: "fab alt brands fa-github"
-        href: "#"
-        weight: 2
+status: "growing"
+project_tags: ["解説", "森田俊吾"]
+summary: "十二人の少女たちと聞こえない耳"
+weight: 1
 ---
 
-This is just an intro paragraph to show how the initial letter of each article or post will look.
-The rest of the page shows you the markdown syntax supported by this theme: headings, typography, images, blockquote, lists, code blocks and tables.
-For more markdown syntax guide, please see this [link](https://www.markdownguide.org/basic-syntax/).
+[第6回の発表](./../../garden/2023-06-23-radiguet)を受けて、この詩について解説いたします。
 
---- 
+十二人の少女と暮らしながらも、そのことを外に漏らすことは許されない「私」が、復讐のために少女たちを殺していく話、と取ると、不気味な雰囲気が漂います。
+しかし、実際には、「私」が少女を殺す場面は出てきません。旅先から持ち帰った花をもらった少女たちのうちの何人かが、何かしらの理解を示し、その後亡くなっているのです。
+一年の歳月にも似た少女たちと言われるので、月や星座のイメージがあり、少女というのは「時間」の象徴なのではないかという読み方ができそうです。
+過ぎゆく時間を感じながらも、それに何とかして抗おうとする「私」という物語として読むこともできるかもしれません。
 
-# Heading level 1
-## Heading level 2 {#custom-id-2}
-### Heading level 3 
-#### Heading level 4
+一方で、少女たちという存在は、口にすることも許されない存在だったことも意味深です。このタイトルに基づけば、花というのは、言葉（langage des fleurs）でもありました。「私」は、彼女たちと「踊る」ことはできても、「話す」こと（言葉にすること）は禁じられていました。もしかすると、「私」は、彼女と踊るだけではなく、話したかったのではないでしょうか。けれども、彼女たちとの会話は禁じられていたために、その腹いせでもって、花の言語（花を送る＝愛のメッセージ）を使って、彼女たちと交流をしようとしたのではないか。それでも、それを「言語」として理解した少女のうちの何人かは、禁忌を破ったと理解し、消え去っていったのではないでしょうか。そして、残った少女たちは、「踊る」行為以外を要求する私に対して、理解を示さず、「知らないふり」を決め込むことになります。
 
----
+そんな中、夏になると、みんなで散歩に出かけるようになりました。相変わらず彼女たちとは「踊る」ことしか許されていない「私」は、彼女らとコミュニケーションを取らず、各々で星の数を数えるのでした。明確な言及はないけれど、先ほどの「花の言語」とのアナロジーで考えると、外にでかけた少女たちもまた「星の言語」を読み取ってしまったのではないでしょうか。夏目漱石の「月が綺麗ですね」ではないけれども、「星を一緒に見る」という行為もまた、一つのメッセージ＝言語として理解できるのではないでしょうか。その言語を受け取った女性は、花のとき同様に、一人ずつ死に絶えていったのではないでしょうか。
 
-This is the first line **with bold text**.  
-This is the second line *with italic text*.  
-This is the third line  ***with bold italic text***.  
-This is the fourth line ~~with strikethrough text~~.  
-This is the fifth line [with a link to heading level 2](#custom-id-2).  
-This is the sixth line with emoji 🥳.  
+ところが、星の中に一つ、余計なもの（en trop）が見つかります。星が一つだけ余っていた、というのは、一人だけ少女が生き残されていたと考えることができるかもしれません。そうなったとき、次の詩行で呼びかけられる« vous »は、この残った一人の女性に対して言われているのではないでしょうか。良い耳を持っていなかった、つまり、 **（花や星の）言語を聞き取ることができなかった** 生存者だった、ということになります。もっと言うと、「私」による「誘惑」に気付かなかった女性とも捉えられるかもしれません。ラディゲの小説的な世界観でいくと、それは不倫相手になる存在かもしれませんが、filleと不倫するってのも変な話なので、よくわかりません。
 
-First Term
-: This is the definition of the first term.
-
-Second Term
-: This is one definition of the second term.
-: This is another definition of the second term.
-
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
-[^1]: This is the first footnote.
-
-[^bignote]: Here's one with multiple paragraphs and code.
-
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
-
---- 
-
-> This is a blockquote.
-
-> This is a blockquote
->
-> with multiple paragraphs
-
-> This is a
->
->> nested blockquote
-
-> ### This is a header level 3
->
-> - First item
-> - Second item.
->
->  *Italic* and also **bold** are supported.
-
----
-
-{{< figure src="jessica-weiller-GAw5wFLVWVo-unsplash.jpg" title="Just chilling on my favorite tree in San Diego Zoo" width="100%" attr="https://unsplash.com/@jweiller?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">}}
-
-
-For more image processing methods, you can create your own shortcode. Check this [link](https://gohugo.io/content-management/image-processing/) to see what you can do.
-
---- 
-
-Ordered list:
-
-1. First item
-2. Second item
-3. Third item
-    1. Indented item
-    2. Indented item
-4. Fourth item
-
-Unordered lists:
-- First item
-- Second item
-- Third item
-    - Indented item
-    - Indented item
-- Fourth item
-
---- 
-
-This is an `inline code block`. See below for a multi-line code block with syntax highlighting.
-
-```python
-# Python syntax highlighting
-def it_is_true():
-    return True
-
-def it_is_false():
-    return False
-```
-
-```css
-/* CSS syntax highlighting */
-html {
-    text-align: left;
-}
-```
-
----
-
-| Column 1 | Column 2 |
-|:---------|:---------|
-| Cell 1,1 | Cell 1,2 | 
-| Cell 2,1 | Cell 2,2 | 
+花や星を通したメッセージにも気付かない、耳の悪い（勘の悪い）この最後の少女は、それまで半過去と単純過去中心で構成されてきた過去の話を抜け出て、現在形で、「私」と対面して生き残っているようにも思われます。
