@@ -24,6 +24,10 @@
     {{if eq .Section "garden"}}
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/garden.css">
     {{ end }}
+    {{if eq .IsHome true}}
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/index.css">
+    {{ end }}
+
     <!-- Site Title -->
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}

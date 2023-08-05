@@ -1,0 +1,65 @@
+.name,.display-1 {
+  display: flex;
+  letter-spacing: 5px;
+}
+
+.ateliermove {
+    margin-bottom: 20px;
+}
+.move1 {
+  /*animation: slide-up 3s infinite;*/
+	animation: diagonal-move-anim1 1s linear 1 forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes diagonal-move-anim1 {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(15px, -30px);
+	}
+}
+
+.slash {
+    margin: 50px 10px 0px 10px;
+    width:90px;
+    height:3px;
+    background:#d81919!important;
+    transform:rotate(-65deg);
+    /*background: linear-gradient(90deg, #ffc7c7, #d81919, #d81919, #ffc7c7, #d81919);*/
+}
+
+span#red {
+  background: linear-gradient(90deg, #454963, #14515c, #454963);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.move2 {
+  /*animation: slide-up 3s infinite;*/
+	animation: diagonal-move-anim2 1s linear 1 forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes diagonal-move-anim2 {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-15px, 30px);
+	}
+}
+
+
+/*
+@keyframes slide-up { 
+  0%{ transform: translate3d(0, 100%, 0); }
+  50%{ transform: translate3d(0, 0, 0); }
+  100%{ transform: translate3d(0, 100%, 0); }
+}
+*/
+.gendaishi {
+  margin: 30px 0 0 20px!important;
+}

@@ -1,13 +1,13 @@
 {{ define "main" }}
 
 <div class="mt-5 pt-5 pb-1">
-    <div class="container" >
-       	<h1 class="name display-1"><b>{{ .Site.Params.Name }}</b></h1>
+    <div class="container ateliermove" >
+      <div class="name display-1"><div class="move1">Atelier</div><span class="slash"></span><div class="move2">Lecture</div></div>
     </div>
 </div>
 <div class="mb-5 py-4">
     <div class="container">
-        <h2 class="bio lh-base fs-1 serif">{{ .Site.Params.Description }}</h2>
+      <h2 class="bio lh-base fs-1 serif gendaishi">フランス現代<span id="red">詩</span>読書会</h2>
     </div>
 </div>
 
@@ -22,7 +22,7 @@
 			{{ if .Summary }} <p class="subheading">{{ .Summary }}</p> {{ end }}
 			{{ end }}
 			<div class="row row-cols-1 g-4 mb-5">
-				{{ range ( where site.RegularPages "Section" "garden" | first 6 ) }}
+				{{ range ( where site.RegularPages "Section" "garden" | first 5 ) }}
 				{{ partial "home_garden.html" . }}
 				{{ end }}
       		</div>
